@@ -46,6 +46,8 @@ Contributor(s):
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/mapita</property>
     <property name="hibernate.connection.username">fermat</property>
     <property name="hibernate.connection.password">16011997</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.current_session_context_class">thread</property>
     <mapping resource="unam/fciencias/modelo/Marcador.hbm.xml"/>
     <mapping resource="unam/fciencias/modelo/Usuario.hbm.xml"/>
   </session-factory>

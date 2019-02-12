@@ -6,7 +6,7 @@
     <class name="unam.fciencias.modelo.Marcador" table="marcador" schema="public" optimistic-lock="version">
         <id name="idmarcador" type="int">
             <column name="idmarcador" />
-            <generator class="assigned" />
+            <generator class="identity" />
         </id>
         <property name="descrpcion" type="string">
             <column name="descrpcion" not-null="true" />

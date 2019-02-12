@@ -6,7 +6,7 @@
     <class name="unam.fciencias.modelo.Usuario" table="usuario" schema="public" optimistic-lock="version">
         <id name="idusuario" type="int">
             <column name="idusuario" />
-            <generator class="assigned" />
+            <generator class="identity" />
         </id>
         <property name="nomre" type="string">
             <column name="nomre" not-null="true" />

@@ -36,7 +36,7 @@ public class MarcadorDAO extends AbstractDAO<Marcador>{
     }
     
     public List<Marcador> finAll(){
-      return super.finAll(Marcador.class);
+      return super.findAll(Marcador.class);
     }
     
 }
